@@ -128,7 +128,8 @@ section{
 /* illustrations */
 .img{
   
-  height: 80%;
+  height: 60%;
+  width: 100%;
   z-index: 98;
   
 }
@@ -142,7 +143,7 @@ section{
   box-shadow: 6px 6px 12px #ee2d2d, -6px -6px 12px #3d66ec;
 }
 .introTXT{
-  font-size: 2em;
+  font-size: 3em;
   color: #000000;
   text-align: center;
   text-transform: uppercase;
