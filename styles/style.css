@@ -24,7 +24,7 @@ body {
     border-right-width: 0px;
 }
 
-nav {
+.nav_nav {
   z-index: 99;
   border-radius: 3rem;
   width: 100%;
@@ -41,7 +41,7 @@ nav {
 
 }
 
-ul {
+.ul_nav {
   width: 100%;
   border-radius: 3rem;
   background-color: #ffffff;
@@ -59,17 +59,17 @@ ul {
   padding-right: 0.1rem;
 }
 
-nav ul {
+.nav_nav .ul_nav {
   gap: 2.3rem;
 }
 
-nav ul li {
+.nav_nav .ul_nav .li_nav {
   /* margin-left: auto;
   margin-right: auto; */
   margin-right: 1rem ;
 }
 
-nav ul li a {
+.nav_nav .ul_nav .li_nav .a_nav {
   font-family: "Josefin Sans", sans-serif;
   font-weight: normal;
   color: #090909;
@@ -84,11 +84,11 @@ nav ul li a {
   border-style: none;
 }
 
-nav ul li a:hover {
+.nav_nav .ul_nav .li_nav .a_nav:hover {
   box-shadow: 6px 6px 12px #ee2d2d, -6px -6px 12px #3d66ec;
 }
 
-nav ul li a:active {
+.nav_nav .ul_nav .li_nav .a_nav:active {
   color: #666;
   box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
 }
@@ -112,7 +112,7 @@ section{
 
 /* scroll */
 
-.slide-page1 , .slide-page2 , .slide-page3 , .slide-page4 , .slide-page5{
+.slide-page1 , .slide-page2 , .slide-page3 , .slide-page4 , .slide-page5,.slide-page6{
   scroll-snap-align: start;
 }
 
